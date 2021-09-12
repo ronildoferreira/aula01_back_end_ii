@@ -9,10 +9,10 @@ $cesumar->setCnpj ("49342304973204");
 $cesumar->setEndereco ("Av. Guedes Ferreira");
 
 echo "<br>";
-echo "Minha ID: ".$cesumar->getId(). "<br>";
-echo "Nome: ".$cesumar->getNome(). "<br>";
-echo "CNPJ: ".$cesumar->getCnpj (). "<br>";
-echo "Edereço: ".$cesumar->getEndereco (). "<br>" ;
+echo "Minha ID = ".$cesumar->getId(). "<br>";
+echo "Nome = ".$cesumar->getNome(). "<br>";
+echo "CNPJ = ".$cesumar->getCnpj (). "<br>";
+echo "Edereço = ".$cesumar->getEndereco (). "<br>" ;
 echo "<br>";
 
 ?>
