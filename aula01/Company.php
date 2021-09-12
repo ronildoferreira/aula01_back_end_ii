@@ -67,11 +67,13 @@ class Company{
 
     public function listar()
     {
-        echo "ID = ".$this->id;
+        echo "Vindo do Metodo [Listar]";
+        echo "<br>ID = ".$this->id;
         echo "<br>Nome = ".$this->nome;
         echo "<br>Nome = ".$this->cnpj;
         echo "<br>Endereço = ".$this->endereco;
         echo "<br>Cidade = ".$this->cidade;
+
         
     }
 
